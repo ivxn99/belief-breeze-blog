@@ -19,6 +19,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'serif': ['Playfair Display', 'serif'],
+				'sans': ['Inter', 'system-ui', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -95,21 +99,23 @@ export default {
 				DEFAULT: {
 					css: {
 						'max-width': 'none',
-						color: '#374151',
+						color: 'hsl(var(--foreground))',
 						lineHeight: '1.75',
+						fontFamily: 'Inter, system-ui, sans-serif',
 						'[class~="lead"]': {
-							color: '#4B5563',
+							color: 'hsl(var(--muted-foreground))',
 							fontSize: '1.25rem',
 							lineHeight: '1.6',
 							marginTop: '1.2em',
 							marginBottom: '1.2em',
 						},
 						strong: {
-							color: '#111827',
+							color: 'hsl(var(--foreground))',
 							fontWeight: '600',
 						},
 						'h1, h2, h3, h4': {
-							color: '#111827',
+							color: 'hsl(var(--foreground))',
+							fontFamily: 'Playfair Display, serif',
 							fontWeight: '700',
 						},
 						h1: {
