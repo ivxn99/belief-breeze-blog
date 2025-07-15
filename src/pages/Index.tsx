@@ -1,8 +1,8 @@
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-white">
-      <div className="max-w-2xl mx-auto px-8 py-16">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-gray-100">
+      <div className="max-w-lg mx-auto px-8 py-16">
         {/* Header */}
         <header className="mb-16">
           <h1 className="font-mono text-4xl font-bold text-black mb-4 leading-tight">
@@ -23,7 +23,7 @@ const Index = () => {
           </p>
 
           <section>
-            <h2 className="text-2xl font-bold text-black mb-6 border-b border-black pb-2">Limitation</h2>
+            <h2 className="text-2xl font-bold text-black mb-6 border-b border-black pb-2">Conditioning</h2>
             <p className="text-base leading-relaxed mb-4">
               The brain doesn't imagine from nothing. It recombines what's already familiar. It 
               doesn't see into the future. It looks for patterns from the past. That's why relying on your 
@@ -32,7 +32,7 @@ const Index = () => {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold text-black mb-6 border-b border-black pb-2">Mind</h2>
+            <h2 className="text-2xl font-bold text-black mb-6 border-b border-black pb-2">Field</h2>
             <p className="text-base leading-relaxed mb-4">
               Your mind is the non-physical field of thought, imagination, attention, and identity. It's 
               the metaphysical space where beliefs are born, and from which all reality is projected. The 
@@ -83,16 +83,16 @@ const Index = () => {
                   mind. Your own mind.
                 </p>
               </div>
-
-              <div>
-                <h3 className="text-xl font-bold text-black mb-3">Mistake</h3>
-                <p className="text-base leading-relaxed mb-4">
-                  The error is praying TO it instead of FROM it. You keep begging for signs 
-                  and blessings from something that's already inside you, waiting to be activated.
-                </p>
-              </div>
             </div>
           </section>
+
+          <div className="border-l-4 border-black pl-6 py-4 bg-gray-50">
+            <h3 className="text-xl font-bold text-black mb-3">Mistake</h3>
+            <p className="text-base leading-relaxed font-bold">
+              The error is praying TO it instead of FROM it. You keep begging for signs 
+              and blessings from something that's already inside you, waiting to be activated.
+            </p>
+          </div>
 
           <section>
             <h2 className="text-2xl font-bold text-black mb-6 border-b border-black pb-2">Correction</h2>
@@ -107,7 +107,7 @@ const Index = () => {
         {/* Footer */}
         <footer className="mt-16 pt-8 border-t border-black">
           <p className="font-mono text-sm text-black">
-            Written with deep conviction and reflection
+            ivxn
           </p>
         </footer>
       </div>
