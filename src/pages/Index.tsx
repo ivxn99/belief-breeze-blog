@@ -1,17 +1,13 @@
-
 const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-gray-100">
-      <div className="max-w-lg mx-auto px-8 py-16">
+      <div className="max-w-2xl mx-auto px-8 py-16">
         {/* Header */}
         <header className="mb-16">
           <h1 className="font-mono text-4xl font-bold text-black mb-4 leading-tight">
             The Mind Is The Universe
           </h1>
           <div className="w-full h-px bg-black mb-4"></div>
-          <p className="font-mono text-sm italic text-black">
-            *Now contemplating the nature of reality every day.
-          </p>
         </header>
 
         {/* Content */}
