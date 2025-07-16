@@ -1,3 +1,4 @@
+
 const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-gray-100">
@@ -95,7 +96,7 @@ const Index = () => {
             <p className="text-base leading-relaxed mb-4">
               When you recognize that your beliefs, emotions and intentions are the 
               Universe's operating commands, you stop asking for miracles and start issuing 
-              instructions. You stop pleading and start deciding.
+              instructions.
             </p>
           </section>
         </article>
