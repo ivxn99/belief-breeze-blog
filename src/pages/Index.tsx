@@ -6,7 +6,7 @@ const Index = () => {
         {/* Header */}
         <header className="mb-16">
           <h1 className="font-mono text-4xl font-bold text-black mb-4 leading-tight">
-            The Mind Is The Universe
+            The Celestial Mind
           </h1>
           <div className="w-full h-px bg-black mb-4"></div>
         </header>
