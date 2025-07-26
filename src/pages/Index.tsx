@@ -13,12 +13,6 @@ const Index = () => {
 
         {/* Content */}
         <article className="font-mono text-black space-y-12">
-          <p className="text-lg leading-relaxed border-l-2 border-black pl-6">
-            The starting point of all transformation is this: everything you see, touch, experience, and 
-            react to is a direct extension of your <strong>own mind</strong>. Not your brain - your mind. This isn't 
-            philosophy. This is the very mechanism of reality.
-          </p>
-
           <section>
             <h2 className="text-2xl font-bold text-black mb-6 border-b border-black pb-2">Conditioning</h2>
             <p className="text-base leading-relaxed mb-4">
